@@ -7,10 +7,6 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, {'Content-Type': 'text/plain'});
         res.end('Home Page');
     }
-    else if(req.url === '/plain') {
-        res.writeHead(200, {'Content-Type': 'text/html'});
-        res.end('Hello world!');
-    }
     else if(req.url === '/json') {
         res.writeHead(200, {'Content-Type': 'application/json'});
         res.end(JSON.stringify({

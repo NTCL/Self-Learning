@@ -4,6 +4,11 @@ console.log(b);
 console.log(c);
 console.log(d);
 
+[b, c, d] = [4, 5, 6];
+console.log(b);
+console.log(c);
+console.log(d);
+
 let [e, f, g, h] = a;
 console.log(e);
 console.log(f);

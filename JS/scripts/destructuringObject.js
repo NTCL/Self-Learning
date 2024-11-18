@@ -11,3 +11,6 @@ console.log(ca);
 // console.log(d); // ReferenceError: d is not defined
 console.log(da);
 console.log(e);
+({b, e} = {b: 6, e: 7});
+console.log(b);
+console.log(e);

@@ -20,7 +20,7 @@ const UseMemo = () => {
         return stateA % 2 == 0;
     }, [stateA]);
 
-    // always call isEvenB to get calculate the result
+    // always call isEvenB to calculate the result
     const isEvenB = useMemo(() => {
         console.log('CALL isEvenB TO CALCULATE THE RESULT');
         let i = 0;

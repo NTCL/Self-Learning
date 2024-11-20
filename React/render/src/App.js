@@ -7,8 +7,8 @@ import './App.css';
 // import ChildrenPropsChild from './components/ChildrenProps/Child';
 // import MemoParent from './components/Memo/Parent';
 // import IncorrectMemoParent from './components/IncorrectMemo/Parent';
-// import UseContextParent from './components/UseContext/Parent';
-// import UseContextChild from './components/UseContext/Child';
+import UseContextParent from './components/UseContext/Parent';
+import UseContextChild from './components/UseContext/Child';
 
 function App() {
   return (
@@ -22,9 +22,9 @@ function App() {
       </ChildrenPropsParent> */}
       {/* <MemoParent/> */}
       {/* <IncorrectMemoParent /> */}
-      {/* <UseContextParent>
+      <UseContextParent>
         <UseContextChild />
-      </UseContextParent> */}
+      </UseContextParent>
     </div>
   );
 }

@@ -27,8 +27,8 @@ import './App.css';
 // import RenderProps from './components/RenderProps/RenderProps';
 // import RenderPropsChild1 from './components/RenderProps/RenderPropsChild1';
 // import RenderPropsChild2 from './components/RenderProps/RenderPropsChild2';
-// import {ProviderA} from './components/Context/ContextA';
-// import ContextChildA from './components/Context/ContextChildA';
+import {ProviderA} from './components/Context/ContextA';
+import ContextChildA from './components/Context/ContextChildA';
 // import Get from  './components/Request/Get';
 // import Post from './components/Request/Post';
 
@@ -84,9 +84,9 @@ function App() {
           <RenderPropsChild2 count={count} incrementCount={incrementCount} />
         )}
       /> */}
-      {/* <ProviderA value={{a : 1, b : 2}}>
+      <ProviderA value={{a : 1, b : 2}}>
         <ContextChildA />
-      </ProviderA> */}
+      </ProviderA>
       {/* <Get /> */}
       {/* <Post /> */}
     </div>

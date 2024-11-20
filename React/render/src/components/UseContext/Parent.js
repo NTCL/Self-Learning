@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {MemoizedChildA} from './Child';
+import ChildA, {MemoizedChildA} from './Child';
 
 export const Context = React.createContext();
 const Provider = Context.Provider;
@@ -17,6 +17,9 @@ const Parent = ({children}) => {
             </Provider>
             <Provider value={count}>
                 {children}
+            </Provider>
+            <Provider value={count}>
+                <ChildA />
             </Provider>
         </>
     );
